@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "gawsandbox"
+version = "0.0.1"
+description = "Playground"
+authors = ["George Withers <george.withers@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "*"
+Django = "^4.0"
+django-rest-framework = "^0.1.0"
+django-extensions = "^3.1.5"
+zeep = "^4.1.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
